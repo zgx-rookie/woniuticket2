@@ -6,7 +6,7 @@ import lombok.Data;
 
 @Data
 public class Page<T> {
-	private Integer page;
+	private Integer page;  
 	private Integer	row;
 	private Integer	allRow;
 	private Integer	allPage;
