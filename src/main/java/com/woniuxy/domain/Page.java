@@ -28,7 +28,7 @@ public class Page<T> {
 		if(page>allPage)page=allPage;
 		if(page<1)page=1;
 		
-		prev=page-1;
+		prev=page-1;  
 		next=page+1;
 		
 		if(allPage<10) {
